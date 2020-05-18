@@ -1,0 +1,291 @@
+ html {
+    font-size: 115%;
+ }
+
+ main {
+     width: 100%;
+ }
+
+.main_block {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.main_block img {
+    width: 100%;
+}
+
+.anim_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 75px;
+    width: inherit;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+pre {
+    white-space: break-spaces;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-small {
+    height: 84px;
+    background: transparent;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-small > img {
+    height: 80%;
+}
+
+.menu-list-small {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    z-index: 1000;
+    left: -100%;
+    top: 0;
+    background: #cc7955f2;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.menu-list-small .close{
+    height: 84px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu-list-small .close img {
+    height: 40%;
+}
+
+.visible-menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.visible-menu .menu-item {
+    font-size: 1.3em !important;
+}
+
+.colD-4 {
+    flex: 1;
+}
+
+.colD-8 {
+    flex: 1;
+    width: auto;
+}
+
+.colD-12 {
+    width: 100%;
+}
+
+.anim_block_column {
+    flex: 1;
+    width: auto;
+    min-width: 50%;
+}
+
+.anim_block_column.example_block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.anim_block_column .first_exmpl {
+    display: flex;
+    width: 100%;
+}
+
+.anim_block_column .second_eample {
+    width: 100%;
+}
+
+.selector_block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title_for_anim {
+    padding: 0;
+}
+
+.selector_block .sub_title {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.selector_block_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colD-3 {
+    flex: 1 0 32.3%;
+}
+.colD-6 {
+    flex: 1 0 80%;
+}
+.info-block {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gradient_block {
+    display: flex;
+    flex-direction: column;
+}
+.gradient_block_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient_img_column img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gradient_first_example {
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient_first_example .example {
+    height: 100px;
+    margin: 10px 0;
+}
+
+.gradient_second_example {
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient_second_example .example {
+    height: 100px;
+    margin: 10px 0;
+}
+
+.radial_gradient_block_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radial_gradient_block_wrapper > * {
+    flex: 1;
+    min-width: 33%;
+}
+
+.radial_gradient_block_wrapper > .example,
+.radial_gradient_block_wrapper .example_2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 120px;
+}
+
+.repeat_gradient_block_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.repeat_gradient_block_wrapper > * {
+    min-width: 33%;
+    width: auto;
+}
+
+.repeat_gradient_block_wrapper_examples {
+    display: flex;
+}
+
+.repeat_gradient_block_wrapper_examples > * {
+    flex: 1;
+}
+
+.calc_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.calc_example {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto !important;
+    height: 120px;
+}
+
+.transform_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transform_sub_title {
+    width: 100%;
+}
+
+.transform_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transform_info_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transform_info_3 .first_row {
+    flex: 1;
+    min-width: 50%;
+}
+.transform_info_3 .rule_selector {
+    min-width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.transform_info_3 .rule_selector .value_selector,
+.transform_info_3 .rule_selector .description_selector {
+    flex: 1;
+}
+
+.font_block_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font_block_column_2 {
+    margin-top: 20px;
+}
+
+.font_block_column_3 .info-block {
+    margin-top: 20px;
+}

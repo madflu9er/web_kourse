@@ -1,0 +1,120 @@
+html {
+    font-size: 100%;
+}
+
+.anim_block_column {
+    min-width: 100%;
+}
+
+.first_exmpl {
+    flex-direction: column;
+}
+
+.first_exmpl > * {
+    width: auto;
+}
+
+.first_exmpl .example {
+    margin: 20px 0;;
+}
+
+.title_for_anim,
+.title_for_gradient {
+    font-size: 25pt;
+    margin-top: 75px;
+}
+
+.selector_block_wrapper .selector_block_column {
+    flex: 1;
+    min-width: 100%;
+    width: auto;
+}
+
+.radial_gradient_block_wrapper > * {
+    flex: 1;
+    min-width: 100%;
+}
+
+.text {
+    word-break: break-all;
+}
+
+.radial_gradient_block_wrapper .code {
+    width: 100%;
+}
+
+.radial_gradient_block_wrapper .text {
+    box-sizing: border-box;
+}
+
+.radial_gradient_block_wrapper > .example, .radial_gradient_block_wrapper .example_2 {
+    min-width: auto;
+    width: 100%;
+}
+
+.radial_gradient_info_block_wrapper .info-block {
+    width: 100%;
+    margin: 0;
+}
+
+.rule_selector_gradient{
+    display: flex;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.rule_selector_gradient .value_selector,
+.rule_selector_gradient .description_selector{
+    flex: 1;
+}
+
+.repeat_gradient_block_wrapper_examples {
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.repeat_gradient_block_wrapper_examples > * {
+    flex: unset;
+    margin: 20px 15px !important;
+}
+
+.repeat_gradient_block_wrapper {
+    margin-bottom: 30px;
+}
+
+.font_block_column_2 .info-block {
+    width: 100%;
+    margin: 0;
+}
+
+.font_block_column_3 .info-block {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.font_block_column_2 .rule_selector {
+    display: flex;
+    width: 100%;
+}
+
+.font_block_column_2 .rule_selector .value_selector,
+.font_block_column_2 .rule_selector  .description_selector {
+    flex: 1;
+}
+
+.visible-menu .menu-item {
+    font-size: 0.8em !important;
+}
+
+
+.menu-small {
+    height: 50px;
+}
+.visible-menu {
+    padding: 20px 0;
+}
+
+.title_2 {
+    font-size: 12pt;
+}
