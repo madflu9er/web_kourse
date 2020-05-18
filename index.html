@@ -78,42 +78,37 @@
                                 <div class="rule">
                                     <div class="value colD-2 point">animation-name</div>
                                     <div class="description colD-2">
-                                        Определяет имя @keyframes, настраивающего кадры анимации
+                                       Имя которое указано в @keyframes для определения анимации
                                     </div>
                                 </div>
                                 <div class="rule">
                                     <div class="value colD-2 point">animation-duration</div>
                                     <div class="description colD-2">
-                                        Определяет время, в течение которого должен пройти один цикл анимации
+                                        Время цикла анимации
                                     </div>
                                 </div>
                                 <div class="rule">
                                     <div class="value colD-2 point">animation-timing-function</div>
                                     <div class="description colD-2">
-                                        Настраивает ускорение анимации
+                                        Определяет ускорение анимации
                                     </div>
                                 </div>
                                 <div class="rule">
                                     <div class="value colD-2 point">animation-delay</div>
                                     <div class="description colD-2">
-                                        Настраивает задержку между временем загрузки элемента и временем начала анимации
+                                        Определяет задержку между тем как елемент загрузиться и началом анимации
                                     </div>
                                 </div>
                                 <div class="rule">
                                     <div class="value colD-2 point">aanimation-play-state</div>
                                     <div class="description colD-2">
-                                        Позволяет Вам приостановить и возобновить анимацию
-                                    </div>
-                                </div>
-                                <div class="rule">
-                                    <div class="value colD-2 point">animation-name</div>
-                                    <div class="description colD-2">Определяет имя @keyframes, настраивающего кадры анимации
+                                        Состояние анимации, используеться для остановки и продолжения анимации
                                     </div>
                                 </div>
                                 <div class="rule">
                                     <div class="value colD-2 point">animation-fill-mode</div>
                                     <div class="description colD-2">
-                                        Настраивает нужные значения, используемые анимацией, до и после исполнения
+                                        Указывает значения, которые используются анимацией, до и после её прогрывания
                                     </div>
                                 </div>
                             </div>
@@ -330,87 +325,88 @@
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:link</div>
                                     <div class="description_selector colD-5">
-                                        не посещенная ссылка
+                                        ссылка по которой не выполнен переход
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:visited</div>
                                     <div class="description_selector colD-5">
-                                        посещенная ссылка
+                                        ссылка по которой выполнен переход
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:hover</div>
                                     <div class="description_selector colD-5">
-                                        любой элемент, по которому проводят курсором мыши
+                                        страбатывает если над элементов проводят курсором мыши
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:focus</div>
                                     <div class="description_selector colD-5">
-                                        интерактивный элемент, к которому перешли с помощью
-                                        клавиатуры или активировали посредством мыши
+                                        елемент, на котором сейчас фокус, тоесть тот на который нажали мишью
+                                        или перешли с помошью табуляции
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:active</div>
                                     <div class="description_selector colD-5">
-                                        элемент, который был активизирован пользователем
+                                        текущий активный элемент, в основном просходит после focus
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:valid</div>
                                     <div class="description_selector colD-5">
-                                        поля формы, содержимое которых прошло проверку в браузере на
-                                        соответствие указанному типу данных
+                                        если поле формы прошло проверку типа данных, которые в него введены -
+                                        поле становиться валидным - тоесть данные в нем правильные
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:invalid</div>
                                     <div class="description_selector colD-5">
-                                        поля формы, содержимое которых не соответствует указанному типу данных
+                                        если поле формы не прошло проверку типа данных, которые в него введены -
+                                        поле становиться не валидным - тоесть данные в нем не правильные
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:enabled</div>
                                     <div class="description_selector colD-5">
-                                        все активные поля форм
+                                        все доступные для взаимодействия поля формы
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:disabled</div>
                                     <div class="description_selector colD-5">
-                                        заблокированные поля форм, т.е., находящиеся в неактивном
+                                        все заблокированые поля, в них нельзя ничего ввести или выбрать
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:in-range</div>
                                     <div class="description_selector colD-5">
-                                        поля формы, значения которых находятся в заданном
+                                        поле, значение которого находится в рамках заданного диапазона.
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:out-of-range</div>
                                     <div class="description_selector colD-5">
-                                        поля формы, значения которых не входят в установленный диапазон
+                                        поле, значение которого выходит за рамки заданного диапазона.
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:lang()</div>
                                     <div class="description_selector colD-5">
-                                        элементы с текстом на указанном языке
+                                        елемент контент которого на определенном языке
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:target</div>
                                     <div class="description_selector colD-5">
-                                        элемент с символом #, на который ссылаются в документе
+                                        елемент, который имеет на себя ссылку в документе
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector colD-3 point">:checked</div>
                                     <div class="description_selector colD-5">
-                                        выделенные (выбранные пользователем) элементы формы
+                                        выделенный элемент формы
                                     </div>
                                 </div>
                             </div>
@@ -438,45 +434,31 @@
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-of-type()</div>
                                     <div class="description_selector">
-                                        выбирает элементы по
-                                        аналогии с :nth-child() ,
-                                        при этом берёт во
-                                        внимание только тип
-                                        элемента
+                                        выбирает елементы с определенным типом
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:first-of-type</div>
                                     <div class="description_selector">
-                                        выбирает лишь первый
-                                        дочерний определенный
-                                        элемент данного типа
+                                        выбирает первый дочерний елемент с определенным типом
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:last-of-type</div>
                                     <div class="description_selector">
-                                        выбирает лишь последний
-                                        элемент данного типа
+                                        выбирает последний дочерний елемент с определенным типом
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-last-of-type()</div>
                                     <div class="description_selector">
-                                        выбирает элемент заданного
-                                        типа в списке элементов в
-                                        соответствии с указанным
-                                        местоположением, начиная с
-                                        конца
+                                        выбирает елементы с определенным типом в списке елементов, начиная с конца
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:only-of-type</div>
                                     <div class="description_selector">
-                                        выбирает единственный
-                                        элемент указанного типа
-                                        среди дочерних элементов
-                                        родительского элемента
+                                        выбирает один элемент заданного типа среди дочерних елементов
                                     </div>
                                 </div>
                             </div>
@@ -495,25 +477,25 @@
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-child(odd)</div>
                                     <div class="description_selector">
-                                        нечётные дочерние элементы
+                                        выбирает нечётные элементы из родителя, к которому применен
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-child(even)</div>
                                     <div class="description_selector">
-                                        чётные дочерние элементы
+                                        выбирает нечётные элементы из родителя, к которому применен
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-child(3n)</div>
                                     <div class="description_selector">
-                                        каждый третий элемент среди дочерних
+                                        выбирает каждый третий элемент у родителя в списке дочерних елементов
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:nth-child(3n+2)</div>
                                     <div class="description_selector">
-                                        выбирает каждый третий элемент, начиная со второго дочернего элемента (+2)
+                                        выбирает каждый третий, начиная со второго элемента (+2)
                                     </div>
                                 </div>
                                 <div class="rule_selector">
@@ -531,8 +513,8 @@
                                 <div class="rule_selector">
                                     <div class="value_selector  point">:nth-last-child()</div>
                                     <div class="description_selector">
-                                            — в списке дочерних элементов выбирает элемент с указанным местоположением,
-                                            аналогично с :nth-child() , но начиная с последнего, в обратную сторону
+                                        — в списке дочерних элементов выбирает элемент с указанным местоположением,
+                                        аналогично с :nth-child() , но начиная с последнего, в обратную сторону
                                     </div>
                                 </div>
                                 <div class="rule_selector">
@@ -577,13 +559,13 @@
                                 <div class="rule_selector">
                                     <div class="value_selector point">:first-letter</div>
                                     <div class="description_selector">
-                                        выбирает первую букву каждого абзаца, применяется только к блочным элементам
+                                        выбирает первую букву
                                     </div>
                                 </div>
                                 <div class="rule_selector">
                                     <div class="value_selector point">:first-line</div>
                                     <div class="description_selector">
-                                        выбирает первую строку текста элемента, применяется только к блочным элементам
+                                        выбирает первую строку текста
                                     </div>
                                 </div>
                                 <div class="rule_selector">
@@ -595,7 +577,7 @@
                                 <div class="rule_selector">
                                     <div class="value_selector point">:after</div>
                                     <div class="description_selector">
-                                        добавляетгенерируемое содержимое после элемента
+                                        добавляет генерируемое содержимое после элемента
                                     </div>
                                 </div>
                             </div>
@@ -1126,20 +1108,19 @@ repeating-radial-gradient(circle,
                                 <div class="value_selector point">TTF (TrueType), OTF (OpenType PostScript)
                                 </div>
                                 <div class="description_selector">
-                                    Распространенные форматы шрифтов настольных компьютеров
+                                    Самые популярные форматы шрифтов для ПК
                                 </div>
                             </div>
                             <div class="rule_selector">
                                 <div class="value_selector point">EOT(Embedded OpenType)</div>
                                 <div class="description_selector">
-                                    Формат, специфичный для продуктов корпорации Microsoft. Не завоевал популярности у браузеров, за исключением Internet Explorer
+                                    Формат, исопльзующися для браузера Internet Explorer.
                                 </div>
                             </div>
                             <div class="rule_selector">
                                 <div class="value_selector point">SVG (Scalable Vector Graphics)</div>
                                 <div class="description_selector">
                                     Универсальный графический формат, который можно использовать для создания шрифтов.
-                                    Дает хорошие, но не отличные результаты — медленно отображается и демонстрирует текст пониженного качества
                                 </div>
                             </div>
                             <div class="rule_selector">

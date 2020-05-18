@@ -541,7 +541,14 @@ pre {
     grid-column-start: 1;
     grid-template-columns: repeat(4, 1fr);
     grid-column-end: 11;
-    padding: 0 15px;
+}
+
+.transform_wrapper .transform_info_3 {
+    display: grid;
+    grid-column-start: 1;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-end: 11;
+    align-items: center;
 }
 
 .transform_info_3 .first_row {
@@ -553,8 +560,6 @@ pre {
     grid-column-end: 5;
     grid-column-start: 3;
     padding: 0 15px;
-    justify-self: center;
-    width: fit-content;
 }
 
 .transform_info_3 .rule_selector {
