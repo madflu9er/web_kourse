@@ -35,6 +35,15 @@ html {
     min-width: 100%;
 }
 
+.transform_info_2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transform_info_2 .code {
+    width: 100%;
+}
+
 .text {
     word-break: break-all;
 }
