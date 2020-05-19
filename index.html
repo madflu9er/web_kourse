@@ -9,35 +9,40 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="to-top" onclick="scrollToTop(); return false;">
+        ВВЕРХ
+    </div>
     <div class="content colD-12">
         <div class="menu-list-small">
             <div class="close">
                 <img src="./img/close.png" alt="" onclick="openMenu()">
             </div>
             <div class="visible-menu">
-                <a class="menu-item" href="#animation">АНИМАЦИЯ</a>
-                <a class="menu-item" href="#selector">СЕЛЕКТОРЫ</a>
-                <a class="menu-item" href="#css-gradient">ГРАДИЕНТ</a>
-                <a class="menu-item" href="#fonts">ШРИФТЫ</a>
-                <a class="menu-item" href="#calc">ФУНКЦИЯ CALC()</a>
-                <a class="menu-item" href="#3d">3D</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(0);">ГЛАВНАЯ</a>
+                <a class="menu-item" onclick="openMenu();" href="#animation">АНИМАЦИЯ</a>
+                <a class="menu-item" onclick="openMenu();" href="#selector">СЕЛЕКТОРЫ</a>
+                <a class="menu-item" onclick="openMenu();" href="#css-gradient">ГРАДИЕНТ</a>
+                <a class="menu-item" onclick="openMenu();" href="#fonts">ШРИФТЫ</a>
+                <a class="menu-item" onclick="openMenu();" href="#calc">ФУНКЦИЯ CALC()</a>
+                <a class="menu-item" onclick="openMenu();" href="#3d">3D</a>
             </div>
         </div>
         <header>
             <div class="menu colD-12">
-                <a class="menu-item" href="#animation">АНИМАЦИЯ</a>
-                <a class="menu-item" href="#selector">СЕЛЕКТОРЫ</a>
-                <a class="menu-item" href="#css-gradient">ГРАДИЕНТ</a>
-                <a class="menu-item" href="#fonts">ШРИФТЫ</a>
-                <a class="menu-item" href="#calc">ФУНКЦИЯ CALC()</a>
-                <a class="menu-item" href="#3d">3D</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(0);">ГЛАВНАЯ</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(750)" >АНИМАЦИЯ</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(2350);" >СЕЛЕКТОРЫ</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(5100);" >ГРАДИЕНТ</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(11280);">ШРИФТЫ</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(8700);">ФУНКЦИЯ CALC()</a>
+                <a class="menu-item" onclick="openMenu(); unscroll(9200);">3D</a>
             </div>
             <div class="menu-small">
                 <img src="./img/burger.png" alt="" onclick="openMenu()">
             </div>
         </header>
         <main class="colD-12">
-            <div class="main_block">
+            <div class="main_block" id="main">
                 <img src="./img/css3.png" alt="">
             </div>
             <div class="anim_block" id="animation">
@@ -980,20 +985,6 @@ repeating-radial-gradient(circle,
                                 на странице отобржаются в трёхмерном пространстве.
                             </div>
                         </div>
-                        <div class="code text">
-                            <code>
-                                <pre>
-    ul {
-        perspective: 150px;
-        perspective origin: 10% 10%;
-    }
-
-    li {
-        transform: rotateX(50deg);
-    }
-                                </pre>
-                            </code>
-                        </div>
                     </div>
                     <div class="transform_info_3">
                         <div class="rule_selector text">
@@ -1019,6 +1010,20 @@ repeating-radial-gradient(circle,
                             <div class="description_selector">
                                 Располагает элементы в трехмерном пространстве
                             </div>
+                        </div>
+                        <div class="code text">
+                            <code>
+                                <pre>
+    ul {
+        perspective: 150px;
+        perspective origin: 10% 10%;
+    }
+
+    li {
+        transform: rotateX(50deg);
+    }
+                                </pre>
+                            </code>
                         </div>
                     </div>
                     <div class="transform_sub_title">

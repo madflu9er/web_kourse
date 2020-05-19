@@ -113,8 +113,6 @@ pre {
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
@@ -170,7 +168,6 @@ pre {
 }
 
 .gradient_img_column img {
-    width: 80%;
     margin: 0 auto;
 }
 
@@ -257,8 +254,9 @@ pre {
 }
 
 .transform_info_3 {
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
+    padding: 0 15px;
 }
 
 .transform_info_3 .first_row {

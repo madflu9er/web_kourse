@@ -15,3 +15,18 @@ function openMenu () {
         isMenuOpen = false;
     }
 }
+function scrollToTop () {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+}
+
+function unscroll (top) {
+    window.scroll({
+        top,
+        left: 0,
+        behavior: 'smooth'
+    });
+}
